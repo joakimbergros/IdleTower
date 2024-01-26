@@ -1,6 +1,11 @@
+Marker2D
+Node
+Timer
+VisibleOnScreenNotifier2D
+RigidBody2D
+Node2D
 CollisionShape2D
 StaticBody2D
 Sprite2D
-Node2D
 CharacterBody2D
 TileMap

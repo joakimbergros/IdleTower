@@ -1,16 +1,16 @@
-[gd_scene load_steps=4 format=3 uid="uid://6m181kqw2da5"]
+[gd_scene load_steps=4 format=3 uid="uid://ceqgqd80pahqt"]
 
-[ext_resource type="TileSet" uid="uid://be3mpk01ynkd0" path="res://tilemaps/ground.tres" id="1_d3rwn"]
-[ext_resource type="PackedScene" uid="uid://dkwp13mm2hayu" path="res://enemy.tscn" id="2_yy3ir"]
-[ext_resource type="PackedScene" uid="uid://byuhj20c25wam" path="res://tower.tscn" id="3_t0cka"]
+[ext_resource type="TileSet" uid="uid://be3mpk01ynkd0" path="res://tilemaps/ground.tres" id="1_bsqpw"]
+[ext_resource type="PackedScene" uid="uid://byuhj20c25wam" path="res://tower.tscn" id="2_k1wng"]
+[ext_resource type="PackedScene" uid="uid://dkwp13mm2hayu" path="res://enemy.tscn" id="3_g0lxk"]
 
-[node name="main" type="Node"]
+[node name="Main" type="Node"]
 
 [node name="TileMap" type="TileMap" parent="."]
 y_sort_enabled = true
 position = Vector2(53, -188)
 scale = Vector2(0.2, 0.2)
-tile_set = ExtResource("1_d3rwn")
+tile_set = ExtResource("1_bsqpw")
 format = 2
 layer_0/name = "Ground"
 layer_0/y_sort_enabled = true
@@ -26,11 +26,11 @@ layer_2/z_index = 1
 layer_2/navigation_enabled = false
 layer_2/tile_data = PackedInt32Array()
 
-[node name="tower" parent="." instance=ExtResource("3_t0cka")]
+[node name="tower" parent="." instance=ExtResource("2_k1wng")]
 visible = true
 position = Vector2(534, 312)
 
 [node name="enemies" type="Node2D" parent="."]
 
-[node name="enemy" parent="enemies" instance=ExtResource("2_yy3ir")]
+[node name="enemy" parent="enemies" instance=ExtResource("3_g0lxk")]
 position = Vector2(806, 228)

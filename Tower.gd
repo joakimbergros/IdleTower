@@ -1,9 +1,8 @@
-extends RigidBody2D
+extends Area2D
 
 signal hit
 
 @export var health: int
-@export var speed: int
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -15,11 +14,8 @@ func _process(delta):
 	pass
 
 
-func start(input_position):
-	position = input_position
-
-func _on_body_entered(body):
-	if health == 0:
+func take_damage(damage: int):
+	if health <= 0:
 		queue_free()
 		return
-	hit.emit()
+	health -= 1

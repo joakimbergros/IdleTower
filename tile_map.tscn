@@ -1,8 +1,8 @@
 [gd_scene load_steps=4 format=3 uid="uid://6m181kqw2da5"]
 
 [ext_resource type="TileSet" uid="uid://be3mpk01ynkd0" path="res://tilemaps/ground.tres" id="1_d3rwn"]
-[ext_resource type="PackedScene" uid="uid://dkwp13mm2hayu" path="res://enemy.tscn" id="2_yy3ir"]
-[ext_resource type="PackedScene" uid="uid://byuhj20c25wam" path="res://tower.tscn" id="3_t0cka"]
+[ext_resource type="PackedScene" uid="uid://bxpxbg6x53fy8" path="res://Enemy.tscn" id="2_yy3ir"]
+[ext_resource type="PackedScene" uid="uid://8bs2ygobwf2j" path="res://Tower.tscn" id="3_t0cka"]
 
 [node name="main" type="Node"]
 

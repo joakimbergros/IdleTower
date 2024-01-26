@@ -1,7 +1,7 @@
-res://tile_map.tscn
+res://Main.tscn
 res://tilemaps/ground.tres
-res://enemy.tscn
-res://tower.tscn
-res://main.tscn
 res://Enemy.tscn
 res://Tower.tscn
+res://Enemy.gd
+res://Tower.gd
+res://Main.gd

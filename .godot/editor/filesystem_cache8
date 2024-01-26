@@ -1,11 +1,13 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1706295105
-enemy.gd::GDScript::-1::1706294999::0::1::::<>RigidBody2D<>::
-enemy.tscn::PackedScene::7907525473355005484::1706294999::0::1::::<><>::uid://cc26unqaqgsq1::::res://assets/sprites/towers/archer/archer.png<>res://enemy.gd
+::res://::1706302054
+Enemy.gd::GDScript::-1::1706296600::0::1::::<>RigidBody2D<>::
+Enemy.tscn::PackedScene::4033128394421525829::1706301950::0::1::::<><>::res://Enemy.gd<>uid://cc26unqaqgsq1::::res://assets/sprites/towers/archer/archer.png
 icon.svg::CompressedTexture2D::4597811086712964812::1705942455::1705943504::1::::<><>::
+Main.gd::GDScript::-1::1706296762::0::1::::<>Node<>::
+Main.tscn::PackedScene::5087019870366900639::1706301950::0::1::::<><>::uid://be3mpk01ynkd0::::res://tilemaps/ground.tres<>res://Main.gd<>uid://bxpxbg6x53fy8::::res://Enemy.tscn
 README.md::TextFile::-1::1705939079::0::1::::<><>::
-tile_map.tscn::PackedScene::2202265640651089634::1706294652::0::1::::<><>::uid://be3mpk01ynkd0::::res://tilemaps/ground.tres<>uid://dkwp13mm2hayu::::res://enemy.tscn<>uid://byuhj20c25wam::::res://tower.tscn
-tower.tscn::PackedScene::4112683034060303876::1706294632::0::1::::<><>::uid://c6rt2xn27fulr::::res://assets/sprites/towers/archer/archer_level_1.png
+tile_map.tscn::PackedScene::2202265640651089634::1706301999::0::1::::<><>::uid://be3mpk01ynkd0::::res://tilemaps/ground.tres<>uid://bxpxbg6x53fy8::::res://Enemy.tscn<>uid://8bs2ygobwf2j::::res://Tower.tscn
+Tower.tscn::PackedScene::2319438610581890611::1706301950::0::1::::<><>::uid://c6rt2xn27fulr::::res://assets/sprites/towers/archer/archer_level_1.png
 ::res://addons/::1706293276
 ::res://addons/godot-git-plugin/::1706293276
 git_plugin.gdextension::GDExtension::-1::1706293276::0::1::::<><>::
@@ -164,5 +166,5 @@ UFO(7).png::CompressedTexture2D::8087684042185593786::1705924055::1705943504::1:
 ::res://assets/unitypackege/::1705924055
 ::res://assets/vector/::1705943504
 Isometric Tower Defense Pack.svg::CompressedTexture2D::1104893669088881653::1705924055::1705943504::1::::<><>::
-::res://tilemaps/::1706294436
-ground.tres::TileSet::2725734591248202895::1706294436::0::1::::<><>::uid://dagorusjgcqxf::::res://assets/sprites/landscape tiles/grass.png<>uid://clemiwrr4iwul::::res://assets/sprites/landscape tiles/sand.png<>uid://8rdnp2kwyvys::::res://assets/sprites/landscape tiles/snow.png<>uid://cc26unqaqgsq1::::res://assets/sprites/towers/archer/archer.png<>uid://dieouh5m50a7p::::res://assets/sprites/towers/barrack/barrack_level_1 (1).png
+::res://tilemaps/::1706301950
+ground.tres::TileSet::2725734591248202895::1706301950::0::1::::<><>::uid://dagorusjgcqxf::::res://assets/sprites/landscape tiles/grass.png<>uid://clemiwrr4iwul::::res://assets/sprites/landscape tiles/sand.png<>uid://8rdnp2kwyvys::::res://assets/sprites/landscape tiles/snow.png<>uid://cc26unqaqgsq1::::res://assets/sprites/towers/archer/archer.png<>uid://dieouh5m50a7p::::res://assets/sprites/towers/barrack/barrack_level_1 (1).png

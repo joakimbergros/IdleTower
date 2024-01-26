@@ -1,0 +1,89 @@
+[gd_resource type="TileSet" load_steps=11 format=3 uid="uid://be3mpk01ynkd0"]
+
+[ext_resource type="Texture2D" uid="uid://dagorusjgcqxf" path="res://assets/sprites/landscape tiles/grass.png" id="1_yqg6s"]
+[ext_resource type="Texture2D" uid="uid://clemiwrr4iwul" path="res://assets/sprites/landscape tiles/sand.png" id="2_nrjtf"]
+[ext_resource type="Texture2D" uid="uid://8rdnp2kwyvys" path="res://assets/sprites/landscape tiles/snow.png" id="3_x4yuf"]
+[ext_resource type="Texture2D" uid="uid://cc26unqaqgsq1" path="res://assets/sprites/towers/archer/archer.png" id="4_v7a7a"]
+[ext_resource type="Texture2D" uid="uid://dieouh5m50a7p" path="res://assets/sprites/towers/barrack/barrack_level_1 (1).png" id="9_y0ki3"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6842n"]
+resource_name = "Grass"
+texture = ExtResource("1_yqg6s")
+texture_region_size = Vector2i(250, 235)
+0:0/0 = 0
+0:0/0/texture_origin = Vector2i(0, -42)
+0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:0/0/physics_layer_0/angular_velocity = 0.0
+0:0/0/physics_layer_1/linear_velocity = Vector2(0, 0)
+0:0/0/physics_layer_1/angular_velocity = 0.0
+0:0/0/physics_layer_2/linear_velocity = Vector2(0, 0)
+0:0/0/physics_layer_2/angular_velocity = 0.0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_fjlvu"]
+resource_name = "Sand"
+texture = ExtResource("2_nrjtf")
+texture_region_size = Vector2i(250, 235)
+0:0/next_alternative_id = 2
+0:0/0 = 0
+0:0/0/texture_origin = Vector2i(0, -48)
+0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:0/0/physics_layer_0/angular_velocity = 0.0
+0:0/0/physics_layer_1/linear_velocity = Vector2(0, 0)
+0:0/0/physics_layer_1/angular_velocity = 0.0
+0:0/0/physics_layer_2/linear_velocity = Vector2(0, 0)
+0:0/0/physics_layer_2/angular_velocity = 0.0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_2bm4l"]
+resource_name = "Tower"
+texture = ExtResource("9_y0ki3")
+texture_region_size = Vector2i(142, 154)
+0:0/0 = 0
+0:0/0/texture_origin = Vector2i(0, 35)
+0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:0/0/physics_layer_0/angular_velocity = 0.0
+0:0/0/physics_layer_1/linear_velocity = Vector2(0, 0)
+0:0/0/physics_layer_1/angular_velocity = 0.0
+0:0/0/physics_layer_2/linear_velocity = Vector2(0, 0)
+0:0/0/physics_layer_2/angular_velocity = 0.0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_fc5b2"]
+resource_name = "Enemy"
+texture = ExtResource("4_v7a7a")
+texture_region_size = Vector2i(38, 51)
+0:0/0 = 0
+0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:0/0/physics_layer_0/angular_velocity = 0.0
+0:0/0/physics_layer_1/linear_velocity = Vector2(0, 0)
+0:0/0/physics_layer_1/angular_velocity = 0.0
+0:0/0/physics_layer_2/linear_velocity = Vector2(0, 0)
+0:0/0/physics_layer_2/angular_velocity = 0.0
+0:0/0/physics_layer_2/polygon_0/points = PackedVector2Array(13.5, -25, -13.5, -25, -15.5, 23, 21.5, 24)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_abu5f"]
+resource_name = "Snow"
+texture = ExtResource("3_x4yuf")
+texture_region_size = Vector2i(250, 235)
+0:0/0 = 0
+0:0/0/texture_origin = Vector2i(0, -35)
+0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:0/0/physics_layer_0/angular_velocity = 0.0
+0:0/0/physics_layer_1/linear_velocity = Vector2(0, 0)
+0:0/0/physics_layer_1/angular_velocity = 0.0
+0:0/0/physics_layer_2/linear_velocity = Vector2(0, 0)
+0:0/0/physics_layer_2/angular_velocity = 0.0
+
+[resource]
+tile_shape = 1
+tile_size = Vector2i(250, 140)
+physics_layer_0/collision_layer = 1
+physics_layer_0/collision_mask = 0
+physics_layer_1/collision_layer = 2
+physics_layer_1/collision_mask = 4
+physics_layer_2/collision_layer = 4
+physics_layer_2/collision_mask = 2
+navigation_layer_0/layers = 1
+sources/0 = SubResource("TileSetAtlasSource_6842n")
+sources/1 = SubResource("TileSetAtlasSource_fjlvu")
+sources/2 = SubResource("TileSetAtlasSource_abu5f")
+sources/10 = SubResource("TileSetAtlasSource_2bm4l")
+sources/11 = SubResource("TileSetAtlasSource_fc5b2")

@@ -1,0 +1,168 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1706293904
+enemy.gd::GDScript::-1::1706292728::0::1::::<>Node2D<>::
+enemy.tscn::PackedScene::7907525473355005484::1706293889::0::1::::<><>::uid://cc26unqaqgsq1::::res://assets/sprites/towers/archer/archer.png<>res://enemy.gd
+icon.svg::CompressedTexture2D::4597811086712964812::1705942455::1705943504::1::::<><>::
+README.md::TextFile::-1::1705939079::0::1::::<><>::
+tile_map.tscn::PackedScene::2202265640651089634::1706292629::0::1::::<><>::uid://be3mpk01ynkd0::::res://tilemaps/ground.tres<>uid://dkwp13mm2hayu::::res://enemy.tscn<>uid://byuhj20c25wam::::res://tower.tscn
+tower.tscn::PackedScene::4112683034060303876::1706292629::0::1::::<><>::uid://c6rt2xn27fulr::::res://assets/sprites/towers/archer/archer_level_1.png
+::res://addons/::1706293276
+::res://addons/godot-git-plugin/::1706293276
+git_plugin.gdextension::GDExtension::-1::1706293276::0::1::::<><>::
+plugin.cfg::TextFile::-1::1706293276::0::1::::<><>::
+THIRDPARTY.md::TextFile::-1::1706293276::0::1::::<><>::
+::res://addons/godot-git-plugin/linux/::1706293276
+::res://addons/godot-git-plugin/macos/::1706293276
+::res://addons/godot-git-plugin/win64/::1706293276
+::res://assets/::1705944785
+License.txt::TextFile::-1::1705944785::0::1::::<><>::
+::res://assets/sprites/::1705942156
+::res://assets/sprites/enviroument tiles/::1705943504
+crystal(1).png::CompressedTexture2D::8017680436526861354::1705924055::1705943504::1::::<><>::
+crystal(2).png::CompressedTexture2D::2368466920306409074::1705924055::1705943504::1::::<><>::
+crystal(3).png::CompressedTexture2D::6640298082006423933::1705924055::1705943504::1::::<><>::
+::res://assets/sprites/enviroument tiles/desert biome/::1705924055
+::res://assets/sprites/enviroument tiles/desert biome/cactuses/::1705943504
+cactus(1).png::CompressedTexture2D::8964591886031709839::1705924055::1705943504::1::::<><>::
+cactus(2).png::CompressedTexture2D::215647622444023485::1705924055::1705943504::1::::<><>::
+cactus(3).png::CompressedTexture2D::4436454954852876891::1705924055::1705943504::1::::<><>::
+cactus(4).png::CompressedTexture2D::4732726361861859675::1705924055::1705943504::1::::<><>::
+cactus(5).png::CompressedTexture2D::4277938163868776920::1705924055::1705943504::1::::<><>::
+::res://assets/sprites/enviroument tiles/desert biome/desert decoration/::1705943504
+sand_decoration(1).png::CompressedTexture2D::1920770490367887211::1705924055::1705943504::1::::<><>::
+sand_decoration(2).png::CompressedTexture2D::4554270878263346957::1705924055::1705943504::1::::<><>::
+sand_decoration(3).png::CompressedTexture2D::6988570849279550721::1705924055::1705943504::1::::<><>::
+sand_decoration(4).png::CompressedTexture2D::7264452331687761482::1705924055::1705943504::1::::<><>::
+sand_decoration(5).png::CompressedTexture2D::8093843245516345993::1705924055::1705943504::1::::<><>::
+sand_decoration(6).png::CompressedTexture2D::916168837677030594::1705924055::1705943504::1::::<><>::
+sand_decoration(7).png::CompressedTexture2D::2251435718208237072::1705924055::1705943504::1::::<><>::
+sand_decoration(8).png::CompressedTexture2D::4366746090873413562::1705924055::1705943504::1::::<><>::
+sand_decoration(9).png::CompressedTexture2D::4135765547249012739::1705924055::1705943504::1::::<><>::
+::res://assets/sprites/enviroument tiles/desert biome/stones/::1705943504
+stone_sand(1).png::CompressedTexture2D::5412773600065384082::1705924055::1705943504::1::::<><>::
+stone_sand(2).png::CompressedTexture2D::3472369539936414424::1705924055::1705943504::1::::<><>::
+stone_sand(3).png::CompressedTexture2D::9031221862578428490::1705924055::1705943504::1::::<><>::
+stone_sand(4).png::CompressedTexture2D::1283177016149303816::1705924055::1705943504::1::::<><>::
+::res://assets/sprites/enviroument tiles/spring biome/::1705924055
+::res://assets/sprites/enviroument tiles/spring biome/grass decoration/::1705943504
+grass_decoration(1).png::CompressedTexture2D::149486438180142318::1705924055::1705943504::1::::<><>::
+grass_decoration(2).png::CompressedTexture2D::5665513545166612710::1705924055::1705943504::1::::<><>::
+grass_decoration(2)_1.png::CompressedTexture2D::4167677715404115797::1705924055::1705943504::1::::<><>::
+grass_decoration(4).png::CompressedTexture2D::2451747325119217829::1705924055::1705943504::1::::<><>::
+grass_decoration(5).png::CompressedTexture2D::680615749065758555::1705924055::1705943504::1::::<><>::
+grass_decoration(6).png::CompressedTexture2D::5382260892202374758::1705924055::1705943504::1::::<><>::
+grass_decoration(7).png::CompressedTexture2D::2842513350083295276::1705924055::1705943504::1::::<><>::
+grass_decoration(8).png::CompressedTexture2D::1556128910603296640::1705924055::1705943504::1::::<><>::
+grass_decoration(9).png::CompressedTexture2D::4220269050203292986::1705924055::1705943504::1::::<><>::
+::res://assets/sprites/enviroument tiles/spring biome/stones/::1705943504
+stone(1).png::CompressedTexture2D::4793706543211488256::1705924055::1705943504::1::::<><>::
+stone(2).png::CompressedTexture2D::8024213576476174686::1705924055::1705943504::1::::<><>::
+stone(3).png::CompressedTexture2D::8350119199713643768::1705924055::1705943504::1::::<><>::
+stone(4).png::CompressedTexture2D::8282724775369196504::1705924055::1705943504::1::::<><>::
+stone_ground(1).png::CompressedTexture2D::824424841192778445::1705924055::1705943504::1::::<><>::
+stone_ground(2).png::CompressedTexture2D::5483484069978359398::1705924055::1705943504::1::::<><>::
+stone_ground(3).png::CompressedTexture2D::2026247718305650097::1705924055::1705943504::1::::<><>::
+stone_ground(4).png::CompressedTexture2D::2802502141546874216::1705924055::1705943504::1::::<><>::
+::res://assets/sprites/enviroument tiles/spring biome/trees/::1705943504
+tree(1).png::CompressedTexture2D::4959641406425580064::1705924055::1705943504::1::::<><>::
+tree(2).png::CompressedTexture2D::7575387157139069038::1705924055::1705943504::1::::<><>::
+::res://assets/sprites/enviroument tiles/winter biome/::1705924055
+::res://assets/sprites/enviroument tiles/winter biome/snow decoration/::1705943504
+snow_decoration(1).png::CompressedTexture2D::6004109926320276201::1705924055::1705943504::1::::<><>::
+snow_decoration(2).png::CompressedTexture2D::917379275538816100::1705924055::1705943504::1::::<><>::
+snow_decoration(3).png::CompressedTexture2D::7564581099484515281::1705924055::1705943504::1::::<><>::
+snow_decoration(4).png::CompressedTexture2D::1098858529220863215::1705924055::1705943504::1::::<><>::
+snow_decoration(5).png::CompressedTexture2D::6985983668455657426::1705924055::1705943504::1::::<><>::
+snow_decoration(6).png::CompressedTexture2D::8299100415979542061::1705924055::1705943504::1::::<><>::
+snow_decoration(7).png::CompressedTexture2D::5561977145580694240::1705924055::1705943504::1::::<><>::
+snow_decoration(8).png::CompressedTexture2D::4673561253858459501::1705924055::1705943504::1::::<><>::
+snow_decoration(9).png::CompressedTexture2D::2137579848596490374::1705924055::1705943504::1::::<><>::
+::res://assets/sprites/enviroument tiles/winter biome/trees/::1705943504
+tree_winter(1).png::CompressedTexture2D::5367413140451906889::1705924055::1705943504::1::::<><>::
+tree_winter(2).png::CompressedTexture2D::1570492782807221189::1705924055::1705943504::1::::<><>::
+::res://assets/sprites/landscape tiles/::1705943504
+buildingPlaceGrass.png::CompressedTexture2D::8617726096343086211::1705924055::1705943504::1::::<><>::
+buildingPlaceSand.png::CompressedTexture2D::457022797583382047::1705924055::1705943504::1::::<><>::
+buildingPlaceSnow.png::CompressedTexture2D::2952551282800157042::1705924055::1705943504::1::::<><>::
+grass.png::CompressedTexture2D::7172529792689292643::1705924055::1705943504::1::::<><>::
+sand.png::CompressedTexture2D::5553920231272108923::1705924055::1705943504::1::::<><>::
+snow.png::CompressedTexture2D::2351532458217841334::1705924055::1705943504::1::::<><>::
+::res://assets/sprites/road tiles/::1705942175
+::res://assets/sprites/road tiles/desert biome/::1705943504
+road_desert(1).png::CompressedTexture2D::3833217801871178496::1705924055::1705943504::1::::<><>::
+road_desert(2).png::CompressedTexture2D::7435422618040309948::1705924055::1705943504::1::::<><>::
+road_desert(3).png::CompressedTexture2D::919560890038103441::1705924055::1705943504::1::::<><>::
+road_desert(4).png::CompressedTexture2D::7981502117033631007::1705924055::1705943504::1::::<><>::
+road_desert(5).png::CompressedTexture2D::2376701656917202736::1705924055::1705943504::1::::<><>::
+road_desert(6).png::CompressedTexture2D::780807124068745953::1705924055::1705943504::1::::<><>::
+road_desert(7).png::CompressedTexture2D::5139365126871188424::1705924055::1705943504::1::::<><>::
+road_desert(8).png::CompressedTexture2D::3885224784018608209::1705924055::1705943504::1::::<><>::
+road_desert(9).png::CompressedTexture2D::3875318045058793444::1705924055::1705943504::1::::<><>::
+road_desert(10).png::CompressedTexture2D::2459575128684202843::1705924055::1705943504::1::::<><>::
+road_desert(11).png::CompressedTexture2D::2686077964171177036::1705924055::1705943504::1::::<><>::
+::res://assets/sprites/road tiles/spring biome/::1705943504
+road_spring(1).png::CompressedTexture2D::4933927135632996642::1705924055::1705943504::1::::<><>::
+road_spring(2).png::CompressedTexture2D::902772510659545127::1705924055::1705943504::1::::<><>::
+road_spring(3).png::CompressedTexture2D::8292211108995796517::1705924055::1705943504::1::::<><>::
+road_spring(4).png::CompressedTexture2D::3666257665647331062::1705924055::1705943504::1::::<><>::
+road_spring(5).png::CompressedTexture2D::7615657801760374436::1705924055::1705943504::1::::<><>::
+road_spring(6).png::CompressedTexture2D::8700133124694700864::1705924055::1705943504::1::::<><>::
+road_spring(7).png::CompressedTexture2D::3730043442019515419::1705924055::1705943504::1::::<><>::
+road_spring(8).png::CompressedTexture2D::5430763776656207125::1705924055::1705943504::1::::<><>::
+road_spring(9).png::CompressedTexture2D::6584517818494389897::1705924055::1705943504::1::::<><>::
+road_spring(11).png::CompressedTexture2D::1538408598140212823::1705924055::1705943504::1::::<><>::
+road_spring(12).png::CompressedTexture2D::1497255720939756468::1705924055::1705943504::1::::<><>::
+::res://assets/sprites/road tiles/winter biome/::1705943504
+road_winter(1).png::CompressedTexture2D::8872061232718908431::1705924055::1705943504::1::::<><>::
+road_winter(2).png::CompressedTexture2D::7900967397288442575::1705924055::1705943504::1::::<><>::
+road_winter(3).png::CompressedTexture2D::7644851684690684418::1705924055::1705943504::1::::<><>::
+road_winter(4).png::CompressedTexture2D::148637041989929777::1705924055::1705943504::1::::<><>::
+road_winter(5).png::CompressedTexture2D::7767498316900984671::1705924055::1705943504::1::::<><>::
+road_winter(6).png::CompressedTexture2D::5203876719872268242::1705924055::1705943504::1::::<><>::
+road_winter(7).png::CompressedTexture2D::2583809451845020408::1705924055::1705943504::1::::<><>::
+road_winter(8).png::CompressedTexture2D::5682936961445895394::1705924055::1705943504::1::::<><>::
+road_winter(9).png::CompressedTexture2D::7635930860683853288::1705924055::1705943504::1::::<><>::
+road_winter(10).png::CompressedTexture2D::390156962203654221::1705924055::1705943504::1::::<><>::
+road_winter(11).png::CompressedTexture2D::3559848660649355496::1705924055::1705943504::1::::<><>::
+::res://assets/sprites/towers/::1705942175
+::res://assets/sprites/towers/archer/::1705943504
+archer.png::CompressedTexture2D::4970875904217800242::1705924055::1705943504::1::::<><>::
+archer_level_1.png::CompressedTexture2D::6984993010671467167::1705924055::1705943504::1::::<><>::
+archer_level_2.png::CompressedTexture2D::1829837528750672403::1705924055::1705943504::1::::<><>::
+archer_level_3.png::CompressedTexture2D::3527819538668918463::1705924055::1705943504::1::::<><>::
+arrow.png::CompressedTexture2D::6186425971582442585::1705924055::1705943504::1::::<><>::
+bow_animation(1).png::CompressedTexture2D::356276932410215484::1705924055::1705943504::1::::<><>::
+bow_animation(2).png::CompressedTexture2D::2925435865428308743::1705924055::1705943504::1::::<><>::
+bow_animation(3).png::CompressedTexture2D::4675619304441214014::1705924055::1705943504::1::::<><>::
+bow_animation(4).png::CompressedTexture2D::4798436328228536517::1705924055::1705943504::1::::<><>::
+::res://assets/sprites/towers/barrack/::1705943504
+barrack_level_1 (1).png::CompressedTexture2D::7729916479570512119::1705924055::1705943504::1::::<><>::
+barrack_level_1 (2).png::CompressedTexture2D::7001534091890330299::1705924055::1705943504::1::::<><>::
+barrack_level_2 (1).png::CompressedTexture2D::670278182581339674::1705924055::1705943504::1::::<><>::
+barrack_level_2 (2).png::CompressedTexture2D::2048472693491455734::1705924055::1705943504::1::::<><>::
+barrack_level_3 (1).png::CompressedTexture2D::6761369860397909557::1705924055::1705943504::1::::<><>::
+barrack_level_3 (2).png::CompressedTexture2D::4327208756162722708::1705924055::1705943504::1::::<><>::
+knight_level_1.png::CompressedTexture2D::6968825424127722006::1705924055::1705943504::1::::<><>::
+knight_level_2.png::CompressedTexture2D::5240881682214460621::1705924055::1705943504::1::::<><>::
+knight_level_3.png::CompressedTexture2D::7352348172577954246::1705924055::1705943504::1::::<><>::
+shield.png::CompressedTexture2D::5689097195155161496::1705924055::1705943504::1::::<><>::
+sword.png::CompressedTexture2D::8592583541712526391::1705924055::1705943504::1::::<><>::
+::res://assets/sprites/towers/wizard/::1705943504
+stick.png::CompressedTexture2D::7865534923285206570::1705924055::1705943504::1::::<><>::
+wizard_bullet.png::CompressedTexture2D::8142777964882437791::1705924055::1705943504::1::::<><>::
+wizard_level_1.png::CompressedTexture2D::8126840189870178663::1705924055::1705943504::1::::<><>::
+wizard_level_2.png::CompressedTexture2D::696809683749515999::1705924055::1705943504::1::::<><>::
+wizard_level_3.png::CompressedTexture2D::5864384681567998436::1705924055::1705943504::1::::<><>::
+::res://assets/sprites/ufo/::1705943504
+UFO(1).png::CompressedTexture2D::3883575511591215074::1705924055::1705943504::1::::<><>::
+UFO(2).png::CompressedTexture2D::5619029189206770181::1705924055::1705943504::1::::<><>::
+UFO(3).png::CompressedTexture2D::4366026915670553745::1705924055::1705943504::1::::<><>::
+UFO(4).png::CompressedTexture2D::7132835960782103942::1705924055::1705943504::1::::<><>::
+UFO(5).png::CompressedTexture2D::476810403631705452::1705924055::1705943504::1::::<><>::
+UFO(6).png::CompressedTexture2D::6563753059417215313::1705924055::1705943504::1::::<><>::
+UFO(7).png::CompressedTexture2D::8087684042185593786::1705924055::1705943504::1::::<><>::
+::res://assets/unitypackege/::1705924055
+::res://assets/vector/::1705943504
+Isometric Tower Defense Pack.svg::CompressedTexture2D::1104893669088881653::1705924055::1705943504::1::::<><>::
+::res://tilemaps/::1706292062
+ground.tres::TileSet::2725734591248202895::1706292062::0::1::::<><>::uid://dagorusjgcqxf::::res://assets/sprites/landscape tiles/grass.png<>uid://clemiwrr4iwul::::res://assets/sprites/landscape tiles/sand.png<>uid://8rdnp2kwyvys::::res://assets/sprites/landscape tiles/snow.png<>uid://cc26unqaqgsq1::::res://assets/sprites/towers/archer/archer.png<>uid://dieouh5m50a7p::::res://assets/sprites/towers/barrack/barrack_level_1 (1).png

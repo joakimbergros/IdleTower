@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1706293904
+::res://::1706294180
 enemy.gd::GDScript::-1::1706292728::0::1::::<>Node2D<>::
 enemy.tscn::PackedScene::7907525473355005484::1706293889::0::1::::<><>::uid://cc26unqaqgsq1::::res://assets/sprites/towers/archer/archer.png<>res://enemy.gd
 icon.svg::CompressedTexture2D::4597811086712964812::1705942455::1705943504::1::::<><>::

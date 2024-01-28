@@ -2,9 +2,13 @@ extends Node
 
 @export var enemy_scene: PackedScene
 var score
+var spawn_location
+var tower_position: Vector2
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	spawn_location = $EnemyPath/EnemySpawnLocation
+	tower_position = $Tower.position
 	$StartTimer.start()
 
 
@@ -37,14 +41,5 @@ func new_game():
 
 func spawn_enemy():
 	var enemy = enemy_scene.instantiate()
-	
-	var spawn_location = $EnemyPath/EnemySpawnLocation
-	spawn_location.progress_ratio = randf()
-	
-	var target_location = $Tower.position
-	
-	enemy.look_at(target_location)
-	enemy.position = spawn_location.position
-	enemy.linear_velocity = Vector2(1, 2)
-	
+	enemy.set_target_location(tower_position)
 	get_node("Enemies").add_child(enemy)

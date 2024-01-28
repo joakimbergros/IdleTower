@@ -1,22 +1,29 @@
-extends RigidBody2D
+extends CharacterBody2D
 
 signal hit
 
 @export var health: int
 @export var speed: int
 
-# Called when the node enters the scene tree for the first time.
+var target_position: Vector2
+var navigation_agent: NavigationAgent2D
+
 func _ready():
-	pass # Replace with function body.
+	navigation_agent = $NavigationAgent2D
+	navigation_agent.target_position = target_position
 
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	pass
+	var current_location = global_transform.origin
+	var next_location = navigation_agent.get_next_path_position()
+	var new_velocity = (next_location - current_location).normalized() * speed
+	velocity = new_velocity
+	move_and_slide()
 
 
-func start(input_position):
-	position = input_position
+func set_target_location(target_location: Vector2):
+	target_position = target_location
+
 
 func _on_body_entered(body):
 	if health == 0:

@@ -48,6 +48,8 @@ curve = SubResource("Curve2D_iqo0r")
 [node name="EnemySpawnLocation" type="PathFollow2D" parent="EnemyPath"]
 position = Vector2(-203.394, -195.072)
 
+[connection signal="damage_taken" from="Tower" to="." method="_on_tower_damage_taken"]
+[connection signal="death" from="Tower" to="." method="_on_tower_death"]
 [connection signal="timeout" from="EnemyTimer" to="." method="_on_enemy_timer_timeout"]
 [connection signal="timeout" from="ScoreTimer" to="." method="_on_score_timer_timeout"]
 [connection signal="timeout" from="StartTimer" to="." method="_on_start_timer_timeout"]

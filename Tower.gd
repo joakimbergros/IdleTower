@@ -1,6 +1,7 @@
 extends StaticBody2D
 
-signal hit
+signal death
+signal damage_taken()
 
 @export var health: int
 
@@ -16,6 +17,7 @@ func _process(delta):
 
 func take_damage(damage: int):
 	if health <= 0:
-		queue_free()
+		death.emit()
 		return
-	health -= 1
+	health -= damage
+	damage_taken.emit()

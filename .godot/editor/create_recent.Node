@@ -1,9 +1,11 @@
+Label
+CanvasLayer
+RigidBody2D
+ColorRect
 NavigationAgent2D
 StaticBody2D
 CharacterBody2D
 Camera2D
-RigidBody2D
-ColorRect
 ParallaxBackground
 Area2D
 PathFollow2D
@@ -11,5 +13,3 @@ Path2D
 Marker2D
 Node
 Timer
-VisibleOnScreenNotifier2D
-Node2D

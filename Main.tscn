@@ -1,24 +1,33 @@
-[gd_scene load_steps=5 format=3 uid="uid://ceqgqd80pahqt"]
+[gd_scene load_steps=6 format=3 uid="uid://ceqgqd80pahqt"]
 
 [ext_resource type="Script" path="res://Main.gd" id="1_ec2r6"]
 [ext_resource type="PackedScene" uid="uid://bxpxbg6x53fy8" path="res://Enemy.tscn" id="2_aklrc"]
 [ext_resource type="PackedScene" uid="uid://8bs2ygobwf2j" path="res://Tower.tscn" id="3_ugx0m"]
+[ext_resource type="PackedScene" uid="uid://dimbpahfr0fkf" path="res://Hud.tscn" id="4_trx60"]
 
 [sub_resource type="Curve2D" id="Curve2D_iqo0r"]
 _data = {
-"points": PackedVector2Array(0, 0, 0, 0, -64, -52, 0, 0, 0, 0, 589, -49, 0, 0, 0, 0, 1216, -52, 0, 0, 0, 0, 1216, 716, 0, 0, 0, 0, -64, 716, 0, 0, 0, 0, -64, -52)
+"points": PackedVector2Array(0, 0, 0, 0, -203.394, -195.072, 0, 0, 0, 0, 1406.3, -195.072, 0, 0, 0, 0, 1406.3, 981.899, 0, 0, 0, 0, -203.394, 981.899, 0, 0, 0, 0, -203.394, -195.072)
 }
-point_count = 6
+point_count = 5
 
 [node name="Main" type="Node"]
 script = ExtResource("1_ec2r6")
 enemy_scene = ExtResource("2_aklrc")
 
-[node name="Tower" parent="." instance=ExtResource("3_ugx0m")]
-position = Vector2(547, 342)
-health = 100
+[node name="ColorRect" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0.419608, 0.145098, 1)
 
 [node name="Enemies" type="Node2D" parent="."]
+
+[node name="Tower" parent="." instance=ExtResource("3_ugx0m")]
+position = Vector2(600, 370)
+health = 100
 
 [node name="EnemyTimer" type="Timer" parent="."]
 wait_time = 0.5
@@ -29,14 +38,15 @@ wait_time = 0.5
 wait_time = 2.0
 one_shot = true
 
+[node name="HUD" parent="." instance=ExtResource("4_trx60")]
+
 [node name="EnemyPath" type="Path2D" parent="."]
 position = Vector2(103.8, 80.526)
 scale = Vector2(0.825, 0.740885)
 curve = SubResource("Curve2D_iqo0r")
 
 [node name="EnemySpawnLocation" type="PathFollow2D" parent="EnemyPath"]
-position = Vector2(-64, -52)
-rotation = 0.00459415
+position = Vector2(-203.394, -195.072)
 
 [connection signal="timeout" from="EnemyTimer" to="." method="_on_enemy_timer_timeout"]
 [connection signal="timeout" from="ScoreTimer" to="." method="_on_score_timer_timeout"]

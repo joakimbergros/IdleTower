@@ -4,10 +4,11 @@
 [ext_resource type="Texture2D" uid="uid://cc26unqaqgsq1" path="res://assets/sprites/towers/archer/archer.png" id="2_jx162"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_elmn6"]
-radius = 13.0
-height = 52.0
+radius = 5.0
+height = 16.0
 
-[node name="Enemy" type="CharacterBody2D"]
+[node name="Enemy" type="RigidBody2D"]
+gravity_scale = 0.0
 script = ExtResource("1_al6w0")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
@@ -17,6 +18,3 @@ texture = ExtResource("2_jx162")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 visible = false
 shape = SubResource("CapsuleShape2D_elmn6")
-
-[node name="NavigationAgent2D" type="NavigationAgent2D" parent="."]
-debug_enabled = true

@@ -1,29 +1,24 @@
-extends CharacterBody2D
+extends RigidBody2D
 
 signal hit
 
-@export var health: int
-@export var speed: int
+@export var health: int = 100
+@export var speed: int = 200
 
-var target_position: Vector2
-var navigation_agent: NavigationAgent2D
+var viewport: Vector2 = Vector2.ZERO
 
 func _ready():
-	navigation_agent = $NavigationAgent2D
-	navigation_agent.target_position = target_position
+	viewport = Vector2(get_viewport_rect().size) / 2
 
-
-func _process(delta):
-	var current_location = global_transform.origin
-	var next_location = navigation_agent.get_next_path_position()
-	var new_velocity = (next_location - current_location).normalized() * speed
-	velocity = new_velocity
-	move_and_slide()
-
-
-func set_target_location(target_location: Vector2):
-	target_position = target_location
-
+func _physics_process(delta):
+	var view
+	# Get the direction towards the middle of the screen
+	var direction_to_middle = (viewport - global_position).normalized()
+	# Rotate the enemy towards the middle
+	look_at(global_position + direction_to_middle)
+	# Move the enemy in the calculated direction
+	linear_velocity = direction_to_middle * speed
+	$Sprite2D.flip_v = position.x > viewport.x
 
 func _on_body_entered(body):
 	if health == 0:

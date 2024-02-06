@@ -19,7 +19,4 @@ texture = ExtResource("2_jx162")
 visible = false
 shape = SubResource("CapsuleShape2D_elmn6")
 
-[node name="HitTimer" type="Timer" parent="."]
-
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
-[connection signal="timeout" from="HitTimer" to="." method="_on_hit_timer_timeout"]

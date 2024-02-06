@@ -1,7 +1,6 @@
-res://Main.tscn
+res://Enemy.gd
 res://Enemy.tscn
+res://Main.tscn
 res://Tower.tscn
 res://Hud.tscn
-res://Enemy.gd
-res://Main.gd
-res://Tower.gd
+res://Attack.tscn
